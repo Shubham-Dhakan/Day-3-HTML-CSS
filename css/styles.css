@@ -3,10 +3,19 @@
 :root {
     --primary-color: #16a34a;
     --dark-gray: #6b7280;
+    --off-white: #d4d4d8;
 }
+
 hr  {
-    margin: 2rem 0rem;
-}
+        background-color: white;
+        border-style: none;
+        border-top: dotted;
+        border-color: grey;
+        border-width: 5px;
+        height: 0px;
+        width: 5%;
+    }
+
 body {
     font-family: 'Montserrat', sans-serif;
 }
@@ -65,7 +74,7 @@ body {
     background-color: var(--primary-color);
     color: white;
     padding: 1rem;
-    border-bottom-left-radius: 1rem;
+    border-top-left-radius: 1rem;
 }
 
 .dashboard .nav-brand {
@@ -106,6 +115,44 @@ body {
 .nav-style {
     text-align:start;
 }
+
+.section {
+    padding: 2rem;
+}
+
+.section h1 {
+    text-align: center;
+}
+
+.ow {
+    background-color: var(--off-white);
+    
+}
+
+.footer {
+    background-color: var(--primary-color);   
+    border-bottom-right-radius: 1rem;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+.footer-header {
+    color: white;
+}
+
+.footer .url {
+    color: white;
+}
+
+.footer .link-active {
+    font-weight: bold;
+}
+
+.footer ul {
+    padding-inline-start: 0px;
+}
+
 
 
 
