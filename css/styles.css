@@ -2,6 +2,7 @@
 
 :root {
     --primary-color: #16a34a;
+    --dark-gray: #6b7280;
 }
 hr  {
     margin: 2rem 0rem;
@@ -69,6 +70,7 @@ body {
 
 .dashboard .nav-brand {
     font-weight: bold;
+    font-size:medium;
 }
 .dashboard .nav-pills {
     text-align: right;
@@ -81,3 +83,29 @@ body {
 .dashboard .link-active {
     font-weight: bold;
 }   
+
+.hero {
+    padding: 2rem;
+}
+
+.hero .hero-img {
+    max-width: 350px;
+    display:block;
+    margin: auto;
+}
+
+.hero-heading {
+    color: var(--dark-gray);
+    text-align: center;
+}
+
+.heading-inverted {
+    color: var(--primary-color);
+}
+
+.nav-style {
+    text-align:start;
+}
+
+
+
