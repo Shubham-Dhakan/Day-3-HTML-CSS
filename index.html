@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Component Library</title>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body style="background-color: none;">
@@ -11,7 +12,7 @@
             <tr>
                 <td><img src="Images/shubham.png"></td>   
                 <td>
-                    <h3> <a href="#">Shubham Dhakan component library</a></h3>
+                    <h3> <a class="profile" href="#">Shubham Dhakan component library</a></h3>
                     <p>
                         I am attending neog.camp and i want to make  a library which would make all my 
                         projects looks good and consistent. 
@@ -45,47 +46,57 @@
 
     <h2>@container</h2>
     <h3> fluid container </h3>
-    <p> This is a fluid container and it will go till the end of the page</p> 
+    <div class="container"> This is a fluid container and it will go till the end of the page</div> 
     <h3> center container </h3>
-    <p> This is a centered container and it will go till the specified width </p>
+    <div class="container container-center"> This is a centered container and it will go till the specified width </div>
+    
+    <hr>
     
     <h2>@links</h2>
-    <ul>
-        <li>Primary Link</li>
-        <li>Secondary Link</li>
-    </ul>
+    <a class="link link-primary" href="/">Primary Link</a>
+    <a class="link link-secondary" href="/">Secondary Link</a>
+
+    <hr>
 
     <h2>@lists</h2>
     <h3>unordered list</h3>
         <ul>
-            <li>item One</li>
-            <li>item Two</li>
-            <li>item Three</li>
+            <li class="list-non-bullet">item One</li>
+            <li class="list-non-bullet">item Two</li>
+            <li class="list-non-bullet">item Three</li>
         </ul>
 
     <h3>unordered inline list</h3>
     <ul>
-        <li>Inline Item One</li>
-        <li>Inline Item Two</li>
-        <li>Inline Item Three</li>
+        <li class="list-item-inline">Inline Item One</li>
+        <li class="list-item-inline">Inline Item Two</li>
+        <li class="list-item-inline">Inline Item Three</li>
     </ul>
      
     <h3>reverse ordered list</h3>
-    <ol>
+    <ol reversed>
         <li>milk</li>
         <li>eggs</li>
         <li>break</li>
     </ol>
-    <fieldset>
-        <legend><strong>DashBoard</strong></legend>
-        <nav class="dashboard">
-            <ol>
-                <li><a href=""><strong>Home</strong></a></li>
-                <li><a href=""><strong>About</strong></a></li>
-                <li><a href=""><strong>Contact</strong></a></li>
+
+    <hr>
+
+    <nav class="dashboard container">
+        <div> Navigation </div>    
+            <ol class="list-non-bullet">
+                <li class="list-item-inline">
+                    <a class="link" href=""><strong>Home</strong></a>
+                </li>
+                <li class="list-item-inline">
+                    <a class="link" href=""><strong>About</strong></a>
+                </li>
+                <li class="list-item-inline">
+                    <a class="link" href=""><strong>Contact</strong></a>
+                </li>
             </ol>
-        </nav>
-    </fieldset>
+            </div>
+    </nav>
     
     <header>
         <img src="Images/Dev-Setup-Wallpaper.png"> 
