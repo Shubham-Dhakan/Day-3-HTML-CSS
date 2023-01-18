@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 :root {
-    --primary-color: #059669;
+    --primary-color: #16a34a;
 }
 hr  {
     margin: 2rem 0rem;
@@ -19,6 +19,16 @@ body {
 .container-center {
     max-width: 600px;
     margin: auto;
+}
+
+.link {
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+.url {
+    text-decoration: none;
+    padding: 0.5rem 1rem;
 }
 
 .link-primary {
@@ -53,10 +63,21 @@ body {
 .dashboard {
     background-color: var(--primary-color);
     color: white;
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
 }
 
-.dashboard .link {
+.dashboard .nav-brand {
+    font-weight: bold;
+}
+.dashboard .nav-pills {
     text-align: right;
-    text-decoration: none;
+}
+
+.dashboard .url {   
     color: white;
 }
+
+.dashboard .link-active {
+    font-weight: bold;
+}   
