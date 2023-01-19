@@ -26,7 +26,6 @@ body {
         padding: 0rem 1rem;
 }
 
-
 .container-center {
     max-width: 600px;
     margin: auto;
@@ -41,6 +40,12 @@ body {
     text-decoration: none;
     padding: 0.5rem 1rem;
 }
+
+/*************NEW*************/
+.link-repo {
+    text-align: center;
+}
+/*************NEW*************/
 
 .link-primary {
     text-decoration: none;
@@ -154,6 +159,11 @@ body {
     padding-inline-start: 0px;
 }
 
-
-
-
+.footer-project {
+    background-color: var(--primary-color);   
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    padding: 2rem 1rem;
+    text-align: center;
+    color:white;
+}
